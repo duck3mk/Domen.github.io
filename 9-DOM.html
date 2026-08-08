@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script> <script>eruda.init();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors game</title>
+  </head>
+  <body>
+     <p>rock paper Scissors</p>
+    <button class="Rock">Rock</button>
+    <button class="Paper">Paper</button>
+    <button class="Scissors">Scissors</button>
+    <p class="js-p"></p>
+    <p class="pick"></p>
+     <p class="result"></p>
+
+    <button onclick="
+      score.wins = 0
+      score.loses = 0
+      score.ties = 0
+      updateScore();
+      ">
+      rest score
+    </button>
+    <button onclick="
+      auto();
+      ">Auto Play</button>
+
+    <p class="amazon"> amazon shop, lets buy</p>
+    <input type="text" class="val" onkeydown="
+      
+      if (event.key === 'Enter') {
+        calclate();
+      }
+      ">
+    <button onclick="
+      calclate();
+      ">calclate</button>
+    <p class="total"></p>
+    <script src="Dom.js">
+
+      
+      
+    </script>
+  </body>
+</html>
